@@ -2,9 +2,6 @@
   "name": "nexttytail",
   "version": "0.1.0",
   "private": true,
-  "bin": {
-    "create-nexttytail": "./generate-app.js"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +10,7 @@
   },
   "dependencies": {
     "next": "13.1.5",
+    "next-seo": "^5.15.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
